@@ -1,6 +1,5 @@
-const {defineConfig} = require('@vue/cli-service')
+const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
-
 const backend = 'thisproject'
 
 module.exports = defineConfig({
@@ -17,4 +16,4 @@ module.exports = defineConfig({
       },
     },
   },
-});
+})
